@@ -1,0 +1,9 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  hello: "Hello world"
+  spree:
+    something_went_wrong: "Something went wrong"
+    external_accounts: "External Accounts"
+    accounts_not_found: "Accounts Not Found"

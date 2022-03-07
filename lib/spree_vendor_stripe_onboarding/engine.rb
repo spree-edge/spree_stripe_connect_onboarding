@@ -2,14 +2,14 @@ module SpreeVendorStripeOnboarding
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_vendor_stripe_onboarding'
+    engine_name 'spree_stripe_connect_standard_onboarding'
 
     # use rspec for tests
     config.generators do |g|
       g.test_framework :rspec
     end
 
-    initializer 'spree_vendor_stripe_onboarding.environment', before: :load_config_initializers do |_app|
+    initializer 'spree_stripe_connect_standard_onboarding.environment', before: :load_config_initializers do |_app|
       SpreeVendorStripeOnboarding::Config = SpreeVendorStripeOnboarding::Configuration.new
     end
 

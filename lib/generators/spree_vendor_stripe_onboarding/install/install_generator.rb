@@ -6,7 +6,7 @@ module SpreeVendorStripeOnboarding
       source_root File.expand_path("../templates", __FILE__)
 
       def add_migrations
-        run 'bundle exec rake railties:install:migrations FROM=spree_vendor_stripe_onboarding'
+        run 'bundle exec rake railties:install:migrations FROM=spree_stripe_connect_standard_onboarding'
       end
 
       def run_migrations

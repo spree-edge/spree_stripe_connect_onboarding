@@ -2,19 +2,19 @@
 lib = File.expand_path('../lib/', __FILE__)
 $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
-require 'spree_vendor_stripe_onboarding/version'
+require 'spree_stripe_connect_standard_onboarding/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_vendor_stripe_onboarding'
+  s.name        = 'spree_stripe_connect_standard_onboarding'
   s.version     = SpreeVendorStripeOnboarding.version
   s.summary     = 'Add extension summary here'
   s.description = 'Add (optional) extension description here'
   s.required_ruby_version = '>= 2.5'
 
-  s.author    = 'You'
-  s.email     = 'you@example.com'
-  s.homepage  = 'https://github.com/your-github-handle/spree_vendor_stripe_onboarding'
+  s.author    = 'Parvesh'
+  s.email     = 'parvesh@bluebash.co'
+  s.homepage  = 'https://github.com/bluebash-spree-contrib/spree_stripe_connect_standard_onboarding'
   s.license = 'BSD-3-Clause'
 
   s.files       = `git ls-files`.split("\n").reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }

@@ -1,4 +1,4 @@
 require 'spree_core'
 require 'spree_extension'
-require 'spree_vendor_stripe_onboarding/engine'
-require 'spree_vendor_stripe_onboarding/version'
+require 'spree_stripe_connect_standard_onboarding/engine'
+require 'spree_stripe_connect_standard_onboarding/version'

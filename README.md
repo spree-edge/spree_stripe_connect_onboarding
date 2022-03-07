@@ -1,4 +1,4 @@
-# SpreeVendorStripeOnboarding
+# SpreeStripeConnectStandardOnboarding
 
 Introduction goes here.
 

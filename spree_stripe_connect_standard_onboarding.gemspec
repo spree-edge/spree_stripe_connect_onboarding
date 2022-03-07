@@ -7,7 +7,7 @@ require 'spree_stripe_connect_standard_onboarding/version'
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_stripe_connect_standard_onboarding'
-  s.version     = SpreeVendorStripeOnboarding.version
+  s.version     = SpreeStripeConnectStandardOnboarding.version
   s.summary     = 'Add extension summary here'
   s.description = 'Add (optional) extension description here'
   s.required_ruby_version = '>= 2.5'

@@ -1,4 +1,4 @@
-module SpreeVendorStripeOnboarding
+module SpreeStripeConnectStandardOnboarding
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
@@ -10,7 +10,7 @@ module SpreeVendorStripeOnboarding
     end
 
     initializer 'spree_stripe_connect_standard_onboarding.environment', before: :load_config_initializers do |_app|
-      SpreeVendorStripeOnboarding::Config = SpreeVendorStripeOnboarding::Configuration.new
+      SpreeStripeConnectStandardOnboarding::Config = SpreeStripeConnectStandardOnboarding::Configuration.new
     end
 
     def self.activate

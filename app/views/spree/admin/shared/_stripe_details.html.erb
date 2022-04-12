@@ -1,8 +1,6 @@
 <h4 class="pt-5"> Payouts </h4>
 <% if @vendor.stripe_connect_id.present? %>
   <% unless params['action'] == 'new' || params['action'] == 'create' %>
-
-
     <div class="pb-4">
       <table class="table sortable">
         <thead>

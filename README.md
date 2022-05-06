@@ -5,7 +5,7 @@ Create stripe connect account on stripe portal directly through spree.
 1. Add this extension to your Gemfile with this line:
 
     ```ruby
-    gem 'spree_stripe_connect_standard_onboarding'
+    gem 'spree_stripe_connect_onboarding'
     ```
 
 2. Install the gem using Bundler
@@ -17,7 +17,7 @@ Create stripe connect account on stripe portal directly through spree.
 3. Copy & run migrations
 
     ```ruby
-    bundle exec rails g spree_stripe_connect_standard_onboarding:install
+    bundle exec rails g spree_stripe_connect_onboarding:install
     ```
 
 4. Restart your server

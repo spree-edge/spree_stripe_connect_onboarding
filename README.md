@@ -1,7 +1,7 @@
-# 🔥 **bluebash-spree-contrib/SpreeStripeConnectStandardOnboarding**
+# **Spree Stripe Connect Onboarding**
 Create stripe connect account on stripe portal directly through spree.
 
-## ⚡ **Installation**
+## **Installation**
 1. Add this extension to your Gemfile with this line:
 
     ```ruby
@@ -35,5 +35,3 @@ pull request.
 
 
 Copyright (c) 2021 bluebash-spree-contrib, released under the New BSD License
-
-Made with ❤️ by **[@bluebash-spree-team](https://github.com/bluebash-spree-contrib)**

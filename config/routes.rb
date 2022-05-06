@@ -5,7 +5,13 @@ Spree::Core::Engine.add_routes do
       resources :vendors do
         member do
           get :stripe_connect_url
+          get :account_information
         end
+      end
+
+      resources :vendor_settings do
+        get :onboarding, on: :member
+        get :account_information, on: :member
       end
     end
   end

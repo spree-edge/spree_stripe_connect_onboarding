@@ -1,4 +1,9 @@
-<h4 class="pt-5"> Payouts </h4>
+<div class="d-flex">
+  <div class= 'd-flex'>
+    <%= link_to_with_icon 'arrow-left.svg','', request.referer, class: 'pt-5 justify-content-end' %>
+  </div>
+  <h4 class="pt-5  mr-auto"> Account Details </h4>
+</div>
 <% if @vendor.stripe_connect_id.present? %>
   <% unless params['action'] == 'new' || params['action'] == 'create' %>
     <div class="pb-4">
@@ -54,7 +59,4 @@
       </div>
     <% end %>
   <% end %>
-<% else %>
-  <%= link_to @vendor.stripe_connect_id ? 'Manage' : 'Connect', stripe_connect_url_admin_vendor_path(@vendor.id.present? ? @vendor.id : '') , class: 'btn btn-primary my-2' %>
 <% end %>
-

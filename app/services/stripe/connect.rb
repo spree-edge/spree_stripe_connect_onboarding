@@ -32,7 +32,7 @@ class Stripe::Connect
     account_link_info = {}
 
     begin
-      account = Stripe::Account.create({ type: 'standard' })
+      account = Stripe::Account.create({ type: vendor.stripe_account_type })
       account_links = Stripe::AccountLink.create({ account: account['id'], refresh_url: redirect_uri,
                                                    return_url: redirect_uri, type: 'account_onboarding' })
       vendor.update_column(:stripe_connect_id, account['id'])

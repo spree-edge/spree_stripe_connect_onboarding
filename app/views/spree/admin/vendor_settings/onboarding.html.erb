@@ -1,0 +1,15 @@
+<h4 class="pt-5"> Stripe Onboarding </h4>
+
+<%= form_for([:admin, @vendor], url: generate_stripe_account_admin_vendor_settings_url, method: :put) do |f| %>
+  <div class="form-group">
+    <%= f.field_container :stripe_account_type do %>
+      <%= f.label :stripe_account_type %>
+      <%= f.select :stripe_account_type, Spree::Vendor.stripe_account_types.keys.map{ |x| [x.titleize, x] }, {:include_blank => true}, {class: 'select2 form-control', "data-placeholder" => Spree.t(:stripe_account_type)} %>
+    <% end %>
+  </div>
+  <div class="form-actions" data-hook="buttons">
+    <%= f.submit "Connect", class: "btn btn-primary", "data-turbo": "false"%>
+    <span class="or"><%= Spree.t(:or) %></span>
+    <%= button_link_to Spree.t('actions.cancel'), admin_vendor_settings_url, icon: 'delete' %>
+  </div>
+<% end %>

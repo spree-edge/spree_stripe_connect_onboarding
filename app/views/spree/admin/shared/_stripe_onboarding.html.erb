@@ -1,0 +1,20 @@
+<% content_for :sidebar do %>
+  <ul class="nav flex-column nav-pills" data-hook="stripe_onboarding">
+    <% unless @vendor.stripe_connect_id.present? %>
+      <li data-hook='admin_order_tabs_cart_details'>
+        <%= link_to_with_icon 'add.svg',
+          Spree.t(:stripe_onboarding),
+          onboarding_admin_vendor_setting_url(@vendor),
+          class: "nav-link" %>
+      </li>
+    <% end %>
+    <% if @vendor.stripe_connect_id.present? %>
+      <li data-hook='admin_order_tabs_cart_details'>
+        <%= link_to_with_icon 'info.svg',
+          Spree.t(:account_information),
+          url,
+          class: "nav-link" %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

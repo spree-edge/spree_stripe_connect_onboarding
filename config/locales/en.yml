@@ -7,3 +7,7 @@ en:
     something_went_wrong: "Something went wrong"
     external_accounts: "External Accounts"
     accounts_not_found: "Accounts Not Found"
+    payment_integration: "Payment Integration"
+    stripe_account_type: "Stripe Account Type"
+    stripe_onboarding: "Stripe Onboarding"
+    account_information: "Stripe Account Information"

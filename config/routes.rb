@@ -12,6 +12,7 @@ Spree::Core::Engine.add_routes do
       resources :vendor_settings do
         get :onboarding, on: :member
         get :account_information, on: :member
+        put :generate_stripe_account, on: :collection
       end
     end
   end

@@ -1,5 +1,14 @@
 # **Spree Stripe Connect Onboarding**
-Create stripe connect account on stripe portal directly through spree.
+
+## **About**
+
+A Spree extension that provides ability to onboard stripe connect account for vendors.
+
+## **Key Features**
+
+* It includes ability to onbaord a stripe connect account for vendors from admin panel.
+* Ability to choose account type for onboarding
+* Shows the vendor stripe connect account details in the admin panel.
 
 ## **Installation**
 1. Add this extension to your Gemfile with this line:
@@ -32,6 +41,9 @@ Create stripe connect account on stripe portal directly through spree.
 If you'd like to contribute, please take a look at the
 [instructions](CONTRIBUTING.md) for installing dependencies and crafting a good
 pull request.
+
+Copyright (c) 2022 Spree Edge. released under the [New BSD License](https://github.com/spree-edge/spree_stripe_connect_onboarding/blob/master/LICENSE)
+
 
 
 Copyright (c) 2021 bluebash-spree-contrib, released under the New BSD License

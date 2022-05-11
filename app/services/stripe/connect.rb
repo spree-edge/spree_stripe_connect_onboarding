@@ -2,13 +2,11 @@ class Stripe::Connect
   STRIPE_DASHBOARD_URL = 'https://dashboard.stripe.com'.freeze
 
   def self.get_account_url(vendor_id, redirect_uri)
-    debugger
     vendor = Spree::Vendor.find_by(id: vendor_id)
     vendor.stripe_connect_id.present? ? manage_account(vendor, redirect_uri) : create_account(vendor, redirect_uri)
   end
 
   def self.manage_account(vendor, redirect_uri)
-    debugger
     account_link_info = {}
 
     begin
@@ -31,7 +29,6 @@ class Stripe::Connect
 
   # Create new connect account
   def self.create_account(vendor, redirect_uri)
-    debugger
     account_link_info = {}
 
     begin

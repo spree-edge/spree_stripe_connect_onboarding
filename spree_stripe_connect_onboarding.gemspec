@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'deface', '~> 1.0'
 
   # Test suite
+  s.add_development_dependency 'shoulda-matchers'
   s.add_development_dependency 'spree_dev_tools'
   s.add_development_dependency 'byebug'
 end

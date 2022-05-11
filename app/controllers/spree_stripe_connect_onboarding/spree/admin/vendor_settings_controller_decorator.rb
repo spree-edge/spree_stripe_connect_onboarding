@@ -6,11 +6,9 @@ module SpreeStripeConnectOnboarding
           base.before_action :retrieve_stripe_account_info, only: [:edit, :account_information]
         end
 
-        def onboarding
-        end
+        def onboarding; end
 
-        def account_information
-        end
+        def account_information; end
 
         def generate_stripe_account
           if @vendor.update(vendor_params.except(:image))

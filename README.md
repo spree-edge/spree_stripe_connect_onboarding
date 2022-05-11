@@ -11,6 +11,13 @@ For stripe connect account info, refer [doc](https://stripe.com/docs/connect/acc
 * Ability to choose account type for onboarding.
 * Shows the vendor stripe connect account details in the admin panel.
 
+## **Demo**
+
+
+https://user-images.githubusercontent.com/103247578/167868752-a98fdc80-f42d-46a8-b136-a8cad120f211.mp4
+
+
+
 ## **Installation**
 1. Add this extension to your Gemfile with this line:
 

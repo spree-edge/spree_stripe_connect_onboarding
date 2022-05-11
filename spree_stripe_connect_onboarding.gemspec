@@ -25,7 +25,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails', '~> 6.1.5', '>= 6.1.5'
   s.add_dependency 'spree', spree_version
   s.add_dependency 'spree_backend', spree_version
-  # s.add_dependency 'spree_backend' # uncomment to include Admin Panel changes
   s.add_dependency 'spree_extension'
   s.add_dependency 'stripe', '~> 5.45'
   s.add_dependency 'spree_multi_vendor', '~> 2.3.0'
@@ -33,7 +32,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'deface', '~> 1.0'
 
   # Test suite
-  s.add_development_dependency 'shoulda-matchers'
   s.add_development_dependency 'spree_dev_tools'
   s.add_development_dependency 'byebug'
 end

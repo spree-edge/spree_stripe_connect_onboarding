@@ -5,12 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails-controller-testing'
 gem 'stripe', '~> 5.45'
+gem 'spree_multi_vendor', '~> 2.3.0'
+gem 'rails-controller-testing'
 
 group :development, :test do
   gem 'pg'
-  gem 'shoulda-matchers', '~> 5.0'
+  gem 'net-smtp', require: false
 end
 
 gemspec

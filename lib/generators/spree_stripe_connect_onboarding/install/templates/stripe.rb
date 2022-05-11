@@ -1,3 +1,3 @@
 require 'stripe'
 
-# Stripe.api_key = "example.key"
+Stripe.api_key = "example.key"

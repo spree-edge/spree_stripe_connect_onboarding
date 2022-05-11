@@ -16,6 +16,6 @@ end
 
 desc 'Generates a dummy app for testing'
 task :test_app do
-  ENV['LIB_NAME'] = 'spree_stripe_connect_standard_onboarding'
+  ENV['LIB_NAME'] = 'spree_stripe_connect_onboarding'
   Rake::Task['extension:test_app'].invoke
 end

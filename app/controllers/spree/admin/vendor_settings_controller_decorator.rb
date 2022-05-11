@@ -12,6 +12,7 @@ module Spree
       end
 
       def generate_stripe_account
+        debugger
         if @vendor.update(vendor_params.except(:image))
           redirect_to  stripe_connect_url_admin_vendor_path(@vendor)
         end

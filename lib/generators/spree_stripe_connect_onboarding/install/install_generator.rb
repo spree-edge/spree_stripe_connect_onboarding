@@ -1,4 +1,4 @@
-module SpreeStripeConnectStandardOnboarding
+module SpreeStripeConnectOnboarding
   module Generators
     class InstallGenerator < Rails::Generators::Base
       class_option :migrate, type: :boolean, default: true
@@ -6,7 +6,7 @@ module SpreeStripeConnectStandardOnboarding
       source_root File.expand_path("../templates", __FILE__)
 
       def add_migrations
-        run 'bundle exec rake railties:install:migrations FROM=spree_stripe_connect_standard_onboarding'
+        run 'bundle exec rake railties:install:migrations FROM=spree_stripe_connect_onboarding'
       end
 
       def run_migrations

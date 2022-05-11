@@ -38,12 +38,7 @@ A Spree extension that provides ability to onboard stripe connect account for ve
 
 ## Contributing
 
-If you'd like to contribute, please take a look at the
-[instructions](CONTRIBUTING.md) for installing dependencies and crafting a good
-pull request.
+[See corresponding guidelines](https://github.com/bluebash-spree-contrib/spree_stripe_connect_onboarding/blob/master/CONTRIBUTING.md)
 
 Copyright (c) 2022 Spree Edge. released under the [New BSD License](https://github.com/spree-edge/spree_stripe_connect_onboarding/blob/master/LICENSE)
 
-
-
-Copyright (c) 2021 bluebash-spree-contrib, released under the New BSD License

@@ -2,12 +2,13 @@
 
 ## **About**
 
-A Spree extension that provides ability to onboard stripe connect account for vendors.
+A Spree extension that provides ability to onboard stripe connect account for vendors. Its support both standard and express onboarding process. 
+For stripe connect account info, refer [doc](https://stripe.com/docs/connect/accounts).
 
 ## **Key Features**
 
-* It includes ability to onbaord a stripe connect account for vendors from admin panel.
-* Ability to choose account type for onboarding
+* This extension works with spree [multi vendor](https://github.com/spree-contrib/spree_multi_vendor) extension and it provides ability to onboard a stripe connect account for vendors.
+* Ability to choose account type for onboarding.
 * Shows the vendor stripe connect account details in the admin panel.
 
 ## **Installation**

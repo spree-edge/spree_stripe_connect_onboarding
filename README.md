@@ -41,9 +41,6 @@ https://user-images.githubusercontent.com/103247578/167868752-a98fdc80-f42d-46a8
 
   If your server was running, restart it so that it can find the assets properly.
 
-5. Screenshots
- <img width="1000px" src="https://user-images.githubusercontent.com/80692612/161536194-2c61a2d1-df8b-4d1e-afa9-350e1a0f5494.png">
-
 ## Contributing
 
 [See corresponding guidelines](https://github.com/bluebash-spree-contrib/spree_stripe_connect_onboarding/blob/master/CONTRIBUTING.md)

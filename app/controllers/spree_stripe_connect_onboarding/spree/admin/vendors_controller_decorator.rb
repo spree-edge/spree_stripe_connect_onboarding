@@ -14,8 +14,9 @@ module SpreeStripeConnectOnboarding
           redirect_to redirect_callback_uri
         end
 
-        def account_information
-        end
+        def stripe_account_type; end
+
+        def account_information; end
 
         private
 

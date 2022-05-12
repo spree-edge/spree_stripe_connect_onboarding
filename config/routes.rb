@@ -6,6 +6,7 @@ Spree::Core::Engine.add_routes do
         member do
           get :stripe_connect_url
           get :account_information
+          get :stripe_account_type
         end
       end
 

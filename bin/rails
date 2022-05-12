@@ -2,7 +2,7 @@
 # This command will automatically be run when you run "rails" from the root of your extension
 
 ENGINE_ROOT = File.expand_path('../..', __FILE__)
-ENGINE_PATH = File.expand_path('../../lib/spree_stripe_connect_standard_onboarding/engine', __FILE__)
+ENGINE_PATH = File.expand_path('../../lib/spree_stripe_connect_onboarding/engine', __FILE__)
 
 require 'rails/all'
 require 'rails/engine/commands'

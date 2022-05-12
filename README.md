@@ -13,8 +13,7 @@ For stripe connect account info, refer [doc](https://stripe.com/docs/connect/acc
 
 ## **Demo**
 
-
-https://user-images.githubusercontent.com/103247578/167868752-a98fdc80-f42d-46a8-b136-a8cad120f211.mp4
+https://user-images.githubusercontent.com/103247578/168088216-f09d8b05-a5cd-456c-bba4-e623c95fe904.mp4
 
 
 

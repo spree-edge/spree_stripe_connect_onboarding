@@ -1,4 +1,4 @@
-# **Spree Stripe Connect Onboarding**
+# **Spree Stripe Connect Onboarding / Spree vendor onboarding**
 
 ## **About**
 
